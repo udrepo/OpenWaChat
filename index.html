@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="icon" type="image/png" href="images/icons/icon.png"/>
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
     <!--===============================================================================================-->
@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
 
@@ -34,17 +35,10 @@
 					Open WhatsApp chat
 				</span>
 
-
-
             <div class="wrap-input1 validate-input" data-validate = "Subject is required">
                 <input class="input1" id="userNum" type="text" inputmode="numeric" pattern="[0-9]*" pattern="\d*" name="subject" placeholder="Write number">
                 <span class="shadow-input1"></span>
-                <p>	Write a number in 0-XXX-XXX-XX-XX format</p>
-            </div>
 
-            <div class="wrap-input1 validate-input" data-validate = "Message is required">
-                <textarea class="input1" name="message" placeholder="Enter your message"></textarea>
-                <span class="shadow-input1"></span>
             </div>
 
             <div class="container-contact1-form-btn">
@@ -54,6 +48,9 @@
 							<i class="fa fa-whatsapp" aria-hidden="true"></i>
 						</span>
                 </button>
+                <br><br>    <br>
+                <p>	Write a number in +X-XXX-XXX-XX-XX format</p>
+                <p>⚠ If you want to text to yourself enter your WhatsApp number</p>
             </div>
         </form>
     </div>

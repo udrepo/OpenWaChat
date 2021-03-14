@@ -1,7 +1,4 @@
 
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
@@ -26,9 +23,6 @@
 }
 
 
-
-/*//////////////////////////////////////////////////////////////////
-[ RESTYLE TAG ]*/
 
 * {
 	margin: 0px; 
@@ -74,6 +68,7 @@ p {
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
+  text-align: center;
 }
 
 ul, li {
@@ -133,24 +128,20 @@ iframe {
   min-height: 100%;
   padding: 15px;
 
-  background: #009bff;
-  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
-  background: -o-linear-gradient(left, #0072ff, #00c6ff);
-  background: -moz-linear-gradient(left, #0072ff, #00c6ff);
-  background: linear-gradient(left, #0072ff, #00c6ff);
+  background: #075e54;
+  background: -webkit-linear-gradient(left, #075e54, #128c7e);
+  background: -o-linear-gradient(left, #075e54, #128c7e);
+  background: -moz-linear-gradient(left, #075e54, #128c7e);
+  background: linear-gradient(left, #075e54, #128c7e);
 
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
+  display:  flex;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
 }
 
 .container-contact1 {
-  width: 1163px;
+  width: 1000px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -196,7 +187,7 @@ iframe {
 
 input.input1 {
   height: 50px;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 0 30px;
 }
 input.input1 + .shadow-input1 {
@@ -217,7 +208,7 @@ textarea.input1 + .shadow-input1 {
   position: relative;
   width: 100%;
   z-index: 1;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .input1 {
@@ -240,7 +231,7 @@ textarea.input1 + .shadow-input1 {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(87,184,70, 0.5);
+  color: #128c7e;
 }
 
 .input1:focus + .shadow-input1 {
@@ -276,7 +267,7 @@ textarea.input1 + .shadow-input1 {
 .contact1-form-btn {
   min-width: 193px;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 10px;
   background: #25D366;
   font-family: Montserrat-Bold;
   font-size: 15px;
